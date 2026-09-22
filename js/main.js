@@ -1,5 +1,5 @@
 /* ==========================================================================
-   TRATTORIA PORTIXEDDA · Oristano
+   TRATTORIA IL PORTICCIOLO · Oristano
    JS difensivo: il contenuto è sempre visibile anche senza JS o observer.
    ========================================================================== */
 (function () {
