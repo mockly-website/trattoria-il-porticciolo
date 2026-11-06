@@ -1,0 +1,17 @@
+/* Ritocchi di leggibilità (revisione Mockly, novembre 2026).
+   Il corallo su carta chiara era troppo tenue per i testi:
+   per le scritte usiamo un corallo più scuro. */
+:root { --coral-text: #a84b33; }
+.eyebrow, .dish-price, .extra-label, .hours .closed { color: var(--coral-text); }
+.extra-card:not(.featured) .extra-price { color: #8a6118; }
+.btn-wa { color: #0d6b38; background: #fff; }
+
+/* Hero più scuro in centro, dove ci sono i testi */
+.hero-overlay { background: linear-gradient(180deg, rgba(11,37,69,.82) 0%, rgba(11,37,69,.66) 45%, rgba(11,37,69,.88) 100%); }
+
+/* Punti da toccare */
+.hamburger { min-width: 44px; min-height: 44px; }
+.menu-tab { min-height: 44px; }
+.card-link { display: inline-block; padding-block: 0.6rem; }
+.footer a { padding-block: 0.4rem; }
+[hidden] { display: none !important; }

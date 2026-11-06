@@ -74,7 +74,7 @@ h1, h2, h3, h4 { font-family: var(--font-serif); line-height: 1.12; color: var(-
   display: flex;
   align-items: center;
   gap: 14px;
-  font-size: .78rem;
+  font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: .28em;
   text-transform: uppercase;
@@ -227,7 +227,7 @@ body:not(.menu-open) .nav.scrolled { backdrop-filter: blur(14px); }
   transition: color .3s;
 }
 .brand-text span {
-  font-size: .72rem; font-weight: 700;
+  font-size: 0.8125rem; font-weight: 700;
   letter-spacing: .42em; text-transform: uppercase;
   color: var(--gold);
   transition: color .3s;
@@ -309,7 +309,7 @@ body:not(.menu-open) .nav.scrolled { backdrop-filter: blur(14px); }
 
 .hero-eyebrow {
   display: flex; align-items: center; gap: 18px;
-  font-size: .8rem; font-weight: 700;
+  font-size: 0.8125rem; font-weight: 700;
   letter-spacing: .34em; text-transform: uppercase;
   color: var(--gold);
   margin-bottom: 26px;
@@ -472,7 +472,7 @@ html.js .scroll-cue { opacity: 0; animation: fadeIn 1s ease forwards 2.1s; }
 }
 .about-badge svg { width: 26px; height: 26px; color: var(--gold); margin-bottom: 4px; }
 .about-badge strong { font-family: var(--font-serif); font-size: 1.7rem; color: var(--navy); line-height: 1; }
-.about-badge span { font-size: .74rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.about-badge span { font-size: 0.8125rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 @keyframes floatY { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
 
 .about-body { max-width: 560px; }
@@ -496,7 +496,7 @@ html.js .scroll-cue { opacity: 0; animation: fadeIn 1s ease forwards 2.1s; }
   font-variant-numeric: tabular-nums;
 }
 .stat-num small { font-size: 1.1rem; }
-.stat span { font-size: .74rem; font-weight: 600; letter-spacing: .05em; color: var(--muted); text-transform: uppercase; }
+.stat span { font-size: 0.8125rem; font-weight: 600; letter-spacing: .05em; color: var(--muted); text-transform: uppercase; }
 
 .about-actions { display: flex; gap: 14px; flex-wrap: wrap; }
 
@@ -529,7 +529,7 @@ html.js .scroll-cue { opacity: 0; animation: fadeIn 1s ease forwards 2.1s; }
   background: rgba(11, 37, 69, .82);
   backdrop-filter: blur(6px);
   color: var(--cream);
-  font-size: .68rem; font-weight: 700;
+  font-size: 0.8125rem; font-weight: 700;
   letter-spacing: .16em; text-transform: uppercase;
   padding: 7px 13px;
   border-radius: 999px;
@@ -632,7 +632,7 @@ html.js .scroll-cue { opacity: 0; animation: fadeIn 1s ease forwards 2.1s; }
   font-size: 9rem; color: rgba(255, 253, 248, .05);
 }
 .extra-label {
-  font-size: .72rem; font-weight: 800;
+  font-size: 0.8125rem; font-weight: 800;
   letter-spacing: .26em; text-transform: uppercase;
   color: var(--coral);
 }
@@ -677,7 +677,7 @@ html.js .scroll-cue { opacity: 0; animation: fadeIn 1s ease forwards 2.1s; }
   margin-bottom: 14px;
 }
 .allergen-list li {
-  font-size: .78rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: .02em;
   background: var(--sand);
@@ -842,7 +842,7 @@ html.js .review-slide.active { display: block; }
 }
 .hours li:last-child { border-bottom: 0; }
 .hours strong { font-weight: 700; color: var(--navy); }
-.hours .closed { color: var(--coral); text-transform: uppercase; font-size: .8rem; }
+.hours .closed { color: var(--coral); text-transform: uppercase; font-size: 0.8125rem; }
 
 .feature-list li {
   padding: 5px 0 5px 22px;
@@ -896,7 +896,7 @@ html.js .review-slide.active { display: block; }
 .contact-icon svg { width: 22px; height: 22px; }
 .contact-card small {
   display: block;
-  font-size: .72rem; font-weight: 700;
+  font-size: 0.8125rem; font-weight: 700;
   letter-spacing: .16em; text-transform: uppercase;
   color: var(--muted);
   margin-bottom: 2px;
@@ -1097,7 +1097,7 @@ html.js .reveal.in-view, html.js .reveal-left.in-view, html.js .reveal-right.in-
   .footer-grid { grid-template-columns: 1fr; gap: 34px; }
   .footer-bottom-inner { flex-direction: column; text-align: center; }
   .menu-tabs { gap: 8px; }
-  .menu-tab { padding: 9px 18px; font-size: .8rem; }
+  .menu-tab { padding: 9px 18px; font-size: 0.8125rem; }
   .about-badge { right: 12px; }
   .extra-card { padding: 28px 20px; }
   .menu-notes { grid-template-columns: 1fr; gap: 20px; padding: 24px 20px; }
@@ -1125,8 +1125,4 @@ html.js .reveal.in-view, html.js .reveal-left.in-view, html.js .reveal-right.in-
 
 /* ============================== MOCKLY WATERMARK ============================== */
 
-.mockly-watermark{position:fixed;inset:0;z-index:99999;pointer-events:none;display:flex;align-items:center;justify-content:center}
-.mockly-watermark-inner{font-family:monospace;font-size:clamp(5rem,18vw,14rem);font-weight:700;letter-spacing:clamp(12px,4vw,40px);color:rgba(0,0,0,.04);text-transform:uppercase;user-select:none;transform:rotate(-20deg);text-shadow:0 0 30px rgba(0,0,0,.02);animation:watermarkFade 3s ease-in-out infinite;text-align:center;line-height:1.1}
-.mockly-watermark-sub{display:block;font-size:clamp(.8rem,2.5vw,1.5rem);letter-spacing:clamp(6px,1.5vw,16px);margin-top:6px;opacity:.6}
-@keyframes watermarkFade{0%,100%{opacity:1}50%{opacity:.6}}
 
